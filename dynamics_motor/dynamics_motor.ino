@@ -5,7 +5,6 @@ DynamixelWorkbench dxl_wb;
 void setup() {
   // put your setup code here, to run once:
 dxl_wb.begin("",1000000);
-//dxl_wb.init("", 1000000);
 dxl_wb.ping(1);
 dxl_wb.ping(2);
 
